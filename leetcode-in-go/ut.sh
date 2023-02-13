@@ -6,7 +6,7 @@ function cleanTestCache() {
 }
 
 function test() {
-  go test ./... -v;
+  go test ./...;
 }
 
 case $1 in
